@@ -1,0 +1,84 @@
+.contact-container{
+    
+    height: 400px;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: rgb(34, 61, 61);
+    border-radius: 10px;
+    box-shadow: -1em 0 0.5em rgb(204, 204, 200), 1em 0 0.5em rgb(204, 204, 200);
+}
+
+.contact-text{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 80px;
+    color: white;
+}
+
+.colz .colz-icon i{
+    color: white;
+    padding: 8px;
+    padding-left: 0px;
+}
+.colz .colz-icon i:hover{ 
+    transform: scale(1.5);
+}
+.colz-parent{
+    margin-left: 30px;
+}
+.send-here{
+    display: flex;
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+.bgimg{
+    margin-left: 5px;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+ 
+}
+.form-details{
+    border-radius: 10px;
+    box-shadow: 20px rgb(119, 119, 102);
+    height: 360px;
+    width: 500px;
+    margin-top: 30px;
+    box-shadow: 20px rgb(204, 204, 200);
+    margin-left: 600px;
+    position: absolute;
+
+}
+
+.textme{
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.lets{
+    text-align: center;
+    justify-content: center;
+    display: flex;  
+}
+.btn-send{
+    box-shadow: 20px rgb(204, 204, 200);
+    border-radius: 10px;
+    width: 90px;
+    padding: 11px;
+    margin-left: 10px;
+    background-color: rgb(39, 36, 36);
+    color: white;
+    
+}
+.btn-send:hover{
+    
+    background-color: #ff5823;
+    color: #111;
+}
