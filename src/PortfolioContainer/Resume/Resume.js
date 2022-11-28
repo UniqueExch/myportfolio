@@ -18,7 +18,7 @@ export default function Resume() {
         <Row>
           <Col md={4}>
             <div className='resume-details'> 
-                    <i class='fa fa-user setup'></i> <br/>   
+                     <i class="bi bi-xbox setup text-primary"></i> <br/>   
                 <div className='text-wrap'>
                     <span className='education-text'> <strong>Education</strong>
                     </span>
