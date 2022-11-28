@@ -1,11 +1,8 @@
-.navbar{
+/* .navbar{
     height: 100px;
     
 }
-.navbar-brand{
-    margin-left: 200px;
-   
-}
+
 .nav-link{
     color: white;
     
@@ -21,7 +18,29 @@ color: #FF5823;
 text-decoration: none;
 text-transform: uppercase;
 touch-action: none;
+} */
+
+
+.nav-link strong:hover{
+    color: #FF5823;
+    text-decoration: none;
+    text-transform: uppercase;
+    touch-action: none;
+    } 
+
+.colme{
+    background-color: rgb(4, 43, 43);
+    color: white;
 }
-.navbar{
-    background-color: rgb(39, 36, 36);
+
+
+.shape{
+    text-align: center;
+    border-radius: 20px;
+}
+
+.mybtn{
+    color: aliceblue;
+    background-color: white;
+    border-radius: 10px;
 }

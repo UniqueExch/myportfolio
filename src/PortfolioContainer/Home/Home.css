@@ -1,7 +1,7 @@
 .home-container{
-   
     flex-direction: column;
-    justify-content: space-between;
-    max-height: 485px;
+    max-height: 650px;
     background-image: url("../../assets/Home/bg.jpg");
-}
+  
+  
+} 

@@ -1,9 +1,10 @@
 import React from 'react';
+import './Home.css';
 import Profile from './Profile/Profile';
 import Footer from './Footer/Footer';
-import './Home.css';
 import About from '../AboutMe/About';
 import Contact from '../ContactMe/Contact';
+import Resume from '../Resume/Resume';
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <Profile/>
         <Footer/>
         <About/>
+        <Resume/>
         <Contact/>
     </div>
   )

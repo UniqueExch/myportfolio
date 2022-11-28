@@ -1,0 +1,170 @@
+.resume-details-container{
+    margin-top: 30px;
+    height: 350px; 
+    width: 100%;
+    box-shadow: -4px 0px 1px 0px #1f2235;
+    color: #232536;
+    box-shadow: #1f2235;
+    display: flex;
+
+}
+
+.text{
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #FF5823;
+}
+.resume-details{
+    width: 35px;
+    height: 350px;
+    background-color: #1f2235;
+    font-size: 21px; 
+    margin-top: 30px;
+}
+
+.resume-content{
+    height: 350px;
+    margin-top: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+.education-text{
+    margin-left: 18px;
+    margin-top: 3px;
+}
+
+.resume-content-details{
+    margin-top: 30px;
+    height: 350px;
+    margin-left: 25px;
+    width: 100%;
+    box-shadow: -4px 0px 1px 0px #1f2235;
+    text-align: center;
+    color: #232536;
+    box-shadow: #1f2235;
+}
+
+.education-history{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 40px; 
+    padding-right: 50px;   
+}
+
+.education-history1{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 120px; 
+    padding-right: 50px;
+     
+}
+
+.education-history2{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 200px; 
+    padding-right: 50px;
+     
+}
+
+.education-history3{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 280px; 
+    padding-right: 50px;
+     
+}
+
+.school{
+    color: #e44f4ffa; 
+}
+
+   
+.school-text{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 2px;
+}
+
+.duration{
+    position: absolute;
+    height: 30px;
+    width: 90px;
+    background-color: #ee4816;
+    margin-top: 40px;
+    right: 0px;
+    color: aliceblue;
+    border-radius: 17px;
+    text-align: center;
+
+}
+
+.duration1{
+    position: absolute;
+    height: 30px;
+    width: 90px;
+    background-color: #ee4816;
+    margin-top: 120px;
+    right: 0px;
+    color: aliceblue;
+    border-radius: 17px;
+    text-align: center;
+
+}
+
+.duration2{
+    position: absolute;
+    height: 30px;
+    width: 90px;
+    background-color: #ee4816;
+    margin-top: 200px;
+    right: 0px;
+    color: aliceblue;
+    border-radius: 17px;
+    text-align: center;
+
+}
+
+.duration3{
+    position: absolute;
+    height: 30px;
+    width: 90px;
+    background-color: #ee4816;
+    margin-top: 280px;
+    right: 0px;
+    color: aliceblue;
+    border-radius: 17px;
+    text-align: center;
+
+}
+
+.text-wrap{
+    color: #1f2235;
+    margin-left: 35px;
+    font-size: 15px;
+    display: flex;
+    position: absolute;
+}
+
+.text-wrap:hover{
+    background-color: #1f2235;
+    color: white;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    text-align: center;
+    width: 80%;
+    height: 33px;
+    font-size: 14px;
+  
+}
+
+.setup{
+    color: white;
+    margin-left: 10px;
+    margin-top: 35px;
+    position: absolute;
+}
