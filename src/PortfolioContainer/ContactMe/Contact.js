@@ -43,7 +43,7 @@ function Contact(props) {
         <Col md={4}>
           <div className='contact-setup'>
             <a href="https://wa.me/+2348100204801">
-              <h2><i className="fa fa-whatsapp text-danger"></i></h2>
+              <h2><i class="bi bi-whatsapp text-danger"></i></h2>
             </a>
             <span className='phone'>
               <strong>PHONE</strong>
@@ -57,7 +57,7 @@ function Contact(props) {
 
         <Col md={4}>
           <div className='contact-setup'>
-            <h2><i className="fa fa-envelope text-danger"></i></h2>
+            <h2><i class="bi bi-envelope text-danger"></i></h2>
             <span className='phone'>
                   <strong>EMAIL</strong>
               </span>
@@ -70,7 +70,7 @@ function Contact(props) {
 
         <Col md={4}>
           <div className='contact-setup'>
-            <h2><i class='fa fa-home text-danger'></i></h2>
+            <h2><i class="bi bi-house text-danger"></i></h2>
             <span className='phone'>
               <strong>ADDRESS</strong>
             </span>
