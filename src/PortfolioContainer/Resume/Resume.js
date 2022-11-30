@@ -58,17 +58,17 @@ export default function Resume() {
                          Umudike</strong></li>
                       <strong className='school-text'>Bachelor of Science Computer Science</strong>       
                    </div>   
-                   <p className='duration1'>2012-2016</p> 
+                   <p className='duration1'>2015-2016</p> 
                   <div className='education-history1'>      
                       <li className='school'><strong>Industrial Training Experience</strong></li>
                       <strong className='school-text'>ADMA'S Computer training School PortHarcourt</strong>       
                    </div>  
-                   <p className='duration2'>2012-2016</p> 
+                   <p className='duration2'>2022-2022</p> 
                   <div className='education-history2'>      
                       <li className='school'><strong>Diploma In Computer</strong></li>
                       <strong className='school-text'>Prince Computer Academy Nsukka</strong>       
                    </div>  
-                        <p className='duration3'>2012-2016</p> 
+                        <p className='duration3'>2002-2008</p> 
                   <div className='education-history3'>      
                       <li className='school'><strong>High School</strong></li>
                       <strong className='school-text'>Community Secondary School Opi-Agu</strong>       
