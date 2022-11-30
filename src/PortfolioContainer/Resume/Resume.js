@@ -18,31 +18,31 @@ export default function Resume() {
         <Row>
           <Col md={4}>
             <div className='resume-details'> 
-                     <i class="bi bi-mortarboard setup"></i> <br/> 
+                     <i className="bi bi-mortarboard setup"></i> <br/> 
                 <div className='text-wrap'>
                     <span className='education-text'> <strong>Education</strong>
                     </span>
                 </div>
                   <br/> 
-                   <i class="bi bi-journals setup"></i> <br/> 
+                   <i className="bi bi-journals setup"></i> <br/> 
                 <div className='text-wrap'>
                     <span className='education-text'> <strong>Work</strong>
                     </span>
                 </div> 
                   <br/> 
-                  <i class="bi bi-pc-display-horizontal setup"></i><br/>
+                  <i className="bi bi-pc-display-horizontal setup"></i><br/>
                 <div className='text-wrap'>
                     <span className='education-text'> <strong>Programming Skills</strong>
                     </span>
                 </div>
                   <br/> 
-                  <i class="bi bi-stack setup"></i> <br/>  
+                  <i className="bi bi-stack setup"></i> <br/>  
                 <div className='text-wrap'>
                   <span className='education-text'> <strong>Projects</strong>
                   </span>
                 </div>
                  <br/> 
-                  <i class="bi bi-palette setup"></i> <br/>  
+                  <i className="bi bi-palette setup"></i> <br/>  
                 <div className='text-wrap'>
                   <span className='education-text'> <strong>Interests</strong>
                   </span>

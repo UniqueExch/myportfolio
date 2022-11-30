@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import {Container, Row, Col} from 'react-bootstrap'
+import { Row, Col} from 'react-bootstrap'
 
 export default function About() {
   return (
@@ -21,14 +21,14 @@ export default function About() {
           <Col md={6}>
             <div className='about-content'>
               <img style={{width: 555, height: 600 }} src={require('../../assets/Home/about.jpg')}
-                      alt="placeholder image" class="img-fluid"/> 
+                      alt="placeholder" className="img-fluid"/> 
             </div >
           </Col>
 
 
          <Col md={6}>
             <div className='about-content'>
-              <p class="card-text"> <br/>Full stack web and mobile developer
+              <p className="card-text"> <br/>Full stack web and mobile developer
                     with background knowledge of MERN stack applications with utmost effeciency.
                     Strong professional with
                     a BSc willing to be an asset for an organization.</p>

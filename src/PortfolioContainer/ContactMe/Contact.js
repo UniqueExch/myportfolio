@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef} from 'react'
 import "./Contact.css";
 import emailjs from '@emailjs/browser';
 import { Row, Col} from 'react-bootstrap'
@@ -43,7 +43,7 @@ function Contact(props) {
         <Col md={4}>
           <div className='contact-setup'>
             <a href="https://wa.me/+2348100204801">
-              <h2><i class="bi bi-whatsapp text-danger"></i></h2>
+              <h2><i className="bi bi-whatsapp text-danger"></i></h2>
             </a>
             <span className='phone'>
               <strong>PHONE</strong>
@@ -57,7 +57,7 @@ function Contact(props) {
 
         <Col md={4}>
           <div className='contact-setup'>
-            <h2><i class="bi bi-envelope text-danger"></i></h2>
+            <h2><i className="bi bi-envelope text-danger"></i></h2>
             <span className='phone'>
                   <strong>EMAIL</strong>
               </span>
@@ -70,7 +70,7 @@ function Contact(props) {
 
         <Col md={4}>
           <div className='contact-setup'>
-            <h2><i class="bi bi-house text-danger"></i></h2>
+            <h2><i className="bi bi-house text-danger"></i></h2>
             <span className='phone'>
               <strong>ADDRESS</strong>
             </span>
@@ -94,7 +94,7 @@ function Contact(props) {
                     Contact me today for all your tech projects.
                   </h6>
                 <img style={{width: 555, height: 223 }} src={require('../../assets/Home/icon2.jpg')}
-                      alt="placeholder image" class="img-fluid"/> 
+                      alt="placeholder" className="img-fluid"/> 
                  
                 </div>     
             </Col>
@@ -103,17 +103,17 @@ function Contact(props) {
             <Col md={6}>
               <div className='form-setup' >
                 <form ref={form} onSubmit={sendEmail}>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your Name:" name="fullname" required/>
+                    <div className="form-group">
+                        <input type="text" className="form-control" placeholder="Your Name:" name="fullname" required/>
                     </div>
-                    <div class="form-group">
-                        <input type="email"  class="form-control" placeholder="Your Email:" name="email" required/>
+                    <div className="form-group">
+                        <input type="email"  className="form-control" placeholder="Your Email:" name="email" required/>
                     </div>
-                    <div class="form-group">
-                        <input type="text"  class="form-control" placeholder="Your Subject:" name="subject" required/>
+                    <div className="form-group">
+                        <input type="text"  className="form-control" placeholder="Your Subject:" name="subject" required/>
                     </div>
                     <div className='card5'>
-                       <textarea name="message" class="form-control1"  placeholder="Your Message..."  required></textarea>
+                       <textarea name="message" className="form-control1"  placeholder="Your Message..."  required></textarea>
                      </div>
                      <input type="submit" className='btn-send' value="Send" />
                 </form>   

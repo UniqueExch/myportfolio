@@ -132,9 +132,10 @@
 .btn-send{
     padding: 7px;
     width: 150px;
-    margin-left: 300px;
+    margin-right: 0px;
     border-radius: 30px;
     margin-top: 20px;
+    position: absolute;
     color: #FF5823;
     background-color: aliceblue;
     border: none;

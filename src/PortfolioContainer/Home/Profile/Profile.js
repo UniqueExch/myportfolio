@@ -1,7 +1,6 @@
 import React from 'react'
 import Typical from 'react-typical'
 import "./Profile.css";
-import {Container, Row, Col} from 'react-bootstrap'
 
 
 export default function Profile() {
