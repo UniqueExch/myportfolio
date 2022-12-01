@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import { Row, Col} from 'react-bootstrap'
+import {Row, Col} from 'react-bootstrap'
 
 export default function About() {
   return (
