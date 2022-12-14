@@ -46,7 +46,6 @@ export default function About() {
                         </ul>
                     <br/>
                     <br/>
-                    <br/>
                     <div className='profile-options'>
                         <button className='btn primary-btn'>
                             {""}
