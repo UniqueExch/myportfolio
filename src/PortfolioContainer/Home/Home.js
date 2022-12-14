@@ -5,6 +5,7 @@ import Footer from './Footer/Footer';
 import About from '../AboutMe/About';
 import Contact from '../ContactMe/Contact';
 import Resume from '../Resume/Resume';
+import Project from '../Projects/Project';
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <Footer/>
         <About/>
         <Resume/>
+        <Project/>
         <Contact/>
     </div>
   )

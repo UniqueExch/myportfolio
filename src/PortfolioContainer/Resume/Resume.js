@@ -54,19 +54,18 @@ export default function Resume() {
                 <div className='resume-details-container'>
                 <p className='duration'>2012-2016</p> 
                   <div className='education-history'>      
-                      <li className='school'><strong>Michael Okpara University of Agriculture,
-                         Umudike</strong></li>
+                      <li className='school'><strong>MOUAU</strong></li>
                       <strong className='school-text'>Bachelor of Science Computer Science</strong>       
                    </div>   
                    <p className='duration1'>2015-2016</p> 
                   <div className='education-history1'>      
-                      <li className='school'><strong>Industrial Training Experience</strong></li>
+                      <li className='school'><strong>Industrial Training</strong></li>
                       <strong className='school-text'>ADMA'S Computer training School PortHarcourt</strong>       
                    </div>  
-                   <p className='duration2'>2022-2022</p> 
+                   <p className='duration2'>Ongoing</p> 
                   <div className='education-history2'>      
                       <li className='school'><strong>Diploma In Computer</strong></li>
-                      <strong className='school-text'>Prince Computer Academy Nsukka</strong>       
+                      <strong className='school-text'>AltSchoolAfrica</strong>       
                    </div>  
                         <p className='duration3'>2002-2008</p> 
                   <div className='education-history3'>      

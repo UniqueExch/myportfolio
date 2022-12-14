@@ -6,6 +6,7 @@ import Home from './PortfolioContainer/Home/Home';
 import About from './PortfolioContainer/AboutMe/About';
 import Contact from './PortfolioContainer/ContactMe/Contact';
 import Resume from './PortfolioContainer/Resume/Resume';
+import Project from './PortfolioContainer/Projects/Project';
 
 
 
@@ -17,19 +18,23 @@ function App() {
       <Router>
         <Navbar/>
            <Switch> 
-              <Route exact path='/'>
+              <Route exact path='/'component={Home}> 
                 <Home/>
               </Route>
 
-              <Route path='/about'>   
+              <Route path='/about' component={About} exact>   
                 <About/>
               </Route>
 
-              <Route path='/resume'>   
+              <Route path='/resume'component={Resume} exact>   
                 <Resume/>
               </Route>
+ 
+              <Route path='/project'component={Project} exact>    
+                <Project/>
+              </Route>
 
-              <Route path='/contact'>   
+              <Route path='/contact'component={Contact} exact>    
                 <Contact/>
               </Route>
           </Switch>

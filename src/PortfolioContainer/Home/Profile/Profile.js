@@ -1,6 +1,7 @@
 import React from 'react'
-import Typical from 'react-typical'
 import "./Profile.css";
+import Typewriter from "typewriter-effect";
+
 
 
 export default function Profile() {
@@ -39,23 +40,151 @@ export default function Profile() {
                          {" "}
                          <h1>
                              {" "}
-                             <Typical 
-                             loop={Infinity}
-                             steps={[
-                                     "Enthusiastic Dev ",
-                                     2000,
-                                     "Full Stack Deveveloper",
-                                     2000,
-                                     "MERN Stack Dev",
-                                     2000,
-                                     "Enthusiastic Dev",
-                                     2000,
-                                     "React/React Native Dev",
-                                     1000,
-                                     "Cross Platform Dev",
-                                     2000,
-                                ]}    
-                             />
+
+                        <Typewriter
+                        
+                        onInit={(typewriter)=> {
+
+                        typewriter 
+                        .typeString("Enthusiastic Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Full Stack Developer")
+                        .pauseFor(2000)  
+                        .deleteAll()
+                        .typeString("MERN Stack Developer")  
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("React/React Native Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Cross Platform Developer")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Enthusiastic Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Full Stack Developer")
+                        .pauseFor(2000)  
+                        .deleteAll()
+                        .typeString("MERN Stack Developer")  
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("React/React Native Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Cross Platform Developer")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Enthusiastic Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Full Stack Developer")
+                        .pauseFor(2000)  
+                        .deleteAll()
+                        .typeString("MERN Stack Developer")  
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("React/React Native Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Cross Platform Developer")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Enthusiastic Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Full Stack Developer")
+                        .pauseFor(2000)  
+                        .deleteAll()
+                        .typeString("MERN Stack Developer")  
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("React/React Native Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Cross Platform Developer")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Enthusiastic Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Full Stack Developer")
+                        .pauseFor(2000)  
+                        .deleteAll()
+                        .typeString("MERN Stack Developer")  
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("React/React Native Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Cross Platform Developer")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Enthusiastic Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Full Stack Developer")
+                        .pauseFor(2000)  
+                        .deleteAll()
+                        .typeString("MERN Stack Developer")  
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("React/React Native Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Cross Platform Developer")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Enthusiastic Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Full Stack Developer")
+                        .pauseFor(2000)  
+                        .deleteAll()
+                        .typeString("MERN Stack Developer")  
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("React/React Native Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Cross Platform Developer")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Enthusiastic Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Full Stack Developer")
+                        .pauseFor(2000)  
+                        .deleteAll()
+                        .typeString("MERN Stack Developer")  
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("React/React Native Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Cross Platform Developer")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Enthusiastic Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Full Stack Developer")
+                        .pauseFor(2000)  
+                        .deleteAll()
+                        .typeString("MERN Stack Developer")  
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("React/React Native Dev")    
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Cross Platform Developer")    
+                        .pauseFor(2000)
+                        .deleteAll() 
+                        .start();
+                        
+                        }}
+                        />
                          </h1>
                       <span className="profile-role-tagline">
                          Knack of building applications with front and back end 

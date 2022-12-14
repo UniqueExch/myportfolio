@@ -1,39 +1,28 @@
-/* .navbar{
-    height: 100px;
-    
-}
-
-.nav-link{
-    color: white;
-    
-}
-.nav-link .h1.strong:hover:hover{
+/* .navbar .rest :hover{
     color: #FF5823;
+    text-decoration: none;
+    list-style: none;
+    
 }
-.nav-link strong{
-    color: white; 
-}
-.nav-link strong:hover{
-color: #FF5823;
-text-decoration: none;
-text-transform: uppercase;
-touch-action: none;
-} */
-
-
-.nav-link strong:hover{
+ .nav-link strong:hover{
     color: #FF5823;
     text-decoration: none;
     text-transform: uppercase;
-    touch-action: none;
+    }
+.nav-link :hover{
+    color: #FF5823;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    text-align: center;
     } 
-
 .colme{
     background-color: rgb(4, 43, 43);
     color: white;
 }
-
-
+.colme :hover{
+    text-decoration: none;
+}
 .shape{
     text-align: center;
     border-radius: 20px;
@@ -43,4 +32,135 @@ touch-action: none;
     color: aliceblue;
     background-color: white;
     border-radius: 10px;
+} */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: #00828c;
+    color: white;
+}
+
+.logo{
+    font-size: 40px;
+
+}
+
+.logo:hover{
+    font-size: 40px;
+    color: #FF5823;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+    text-decoration: none;
+}
+
+.nav-links :hover{
+    list-style: none;
+    color: #FF5823;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.home,
+.about,
+.resume,
+.project,
+.contact{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 780px){
+    .log{
+        display: flex;
+        top: 15px;
+        left: 35px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-links-mobile{
+        display: block;
+        list-style: none;
+        background-color: #005469;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+    .home,
+    .about,
+    .resume,
+    .project,
+    .contact{
+        color: white;
+        text-align: center;
+        padding: 32px;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+
+    .home:hover,
+    .about:hover,
+    .resume:hover,
+    .project:hover,
+    .contact:hover{
+        color: #FF5823;
+        text-decoration: none;
+        list-style: none;
+        text-transform: uppercase;
+
+        
+    }
+
+    .nav-links :hover{
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        width: 75%;
+        text-decoration: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        background-color: #005469;
+        border: none;
+        outline: none;
+        top: 15px;
+        right: 25px ;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        background-color: #005469;
+        color: white;
+        text-decoration: none;
+        list-style: none;
+
+    }
+
+    .nav-links :hover{
+        text-decoration: none;
+    }
+    
 }
